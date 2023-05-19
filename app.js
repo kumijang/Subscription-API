@@ -36,7 +36,7 @@ app.post("/", (req,res) => {
 
     const option = {
         method: "POST",
-        auth: "sky:06dffd0f1ec3e971bfe32264f199d7d7-us18"
+        auth: "sky:06dffd0f1ec3e971bfe32264f19*********"
     }
    const request = https.request(url, option, (response) => {
 
